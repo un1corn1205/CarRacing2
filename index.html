@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("https://i.postimg.cc/KzWwHPcq/racing.gif");
+            background-position: center;
+            background-size: cover;
+        }
+
+        #myCanvas {
+            border-width: 10px;
+            border-style: ridge;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1,
+        h4,
+        h2 {
+            color: white !important;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>CAR RACING GAME</title>
+</head>
+
+<body onload="add();">
+    <center>
+        <h2>CAR RACING GAME</h2>
+        <h2>GAME STATUS : <span id="game_status"></span> </h2>
+
+        <canvas id="myCanvas" width="800" height="650"></canvas>
+        <h4>NOTE: To move the pink car use arrow keys. To move the purple car use W,A,S,D.</h4>
+    </center>
+    <script src="main.js">
+    </script>
+    <script async src="https://drv.tw/inc/wd.js"></script>
+    
+</body>
+
+</html>
